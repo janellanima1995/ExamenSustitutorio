@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txvUserId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="1" />
+
+            <TextView
+                android:id="@+id/txvId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="1" />
+
+            <TextView
+                android:id="@+id/txvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Lorem Ipsum" />
+
+            <TextView
+                android:id="@+id/txvCompleted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="true" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
